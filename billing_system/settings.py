@@ -43,6 +43,11 @@ INSTALLED_APPS = [
     'invoices',
     'payments',
     'notifications',
+
+    'rest_framework',
+    'drf_yasg',
+    'drf_spectacular',
+    'drf_spectacular_sidecar',
 ]
 
 MIDDLEWARE = [
